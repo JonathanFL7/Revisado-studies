@@ -1,0 +1,33 @@
+/* --- @font-face --- */
+
+
+@font-face {
+    font-family: 'ABITE';
+    src: url('./fontes/ABITE.ttf');
+}
+
+@font-face {
+    font-family: 'SOCIAL-SANS';
+    src: url('./fontes/SOCIAL-SANS.otf');
+}
+
+@font-face {
+    font-family: 'Welcome Magic';
+    src: url('./fontes/Welcome\ Magic.otf'), url('./fontes/Welcome\ Magic.ttf')
+}
+
+
+/* --- Estilos Fontes --- */
+.paragrafo1 {
+    font-family: 'ABITE';
+}
+
+.paragrafo2 {
+    font-family: 'SOCIAL-SANS';
+    font-size: 2em;
+}
+
+.paragrafo3 {
+    font-family: 'Welcome Magic';
+    font-size: 2em;
+}
