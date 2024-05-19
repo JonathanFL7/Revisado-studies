@@ -1,0 +1,15 @@
+html {
+    font-size: 25px;
+}
+
+p {
+    background-color: lightcyan;
+}
+
+.container-especificidade p{
+    background-color: lightblue;
+}
+
+#p {
+    background-color: orange;
+}

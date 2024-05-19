@@ -1,0 +1,67 @@
+/* ----Configurações Gerais---- */
+
+.alinhado {
+    padding: 20px;
+    margin: 10px;
+    background-color: coral;
+}
+
+.justify {
+    background-color: rgba(220, 20, 60, 0.762);
+    padding: 15px;
+}
+
+.text-transform {
+    background-color: lightgreen;
+}
+
+.text-decoration {
+    background-color: lightslategray;
+}
+
+/* ----Alinhado------ */
+
+.alinhado-centro {
+    text-align: center;
+}
+.alinhado-esquerda {
+    text-align: left;
+}
+.alinhado-direita {
+    text-align: right;
+}
+
+/* ---Justificado--- */
+
+.texto-justificado {
+    text-align: justify;
+}
+
+/* ---text transform--- */
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+/* ---Text decoration--- */
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.sobreposto {
+    text-decoration: line-through;
+}
+
+.sem-text-decoration a {
+    text-decoration: none;
+    color: white;
+}

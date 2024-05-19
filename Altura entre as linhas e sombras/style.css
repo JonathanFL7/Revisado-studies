@@ -1,0 +1,22 @@
+.altura-texto {
+    background-color: lightsalmon;
+}
+
+
+/* ---Altura entre linhas--- */
+.altura-entre-linhas {
+    line-height: 100%;
+}
+.altura-entre-linhas2 {
+    line-height: 200%;
+}
+
+.altura-entre-linhas3 {
+    line-height: 50%;
+}
+
+/* ---sombras--- */
+
+.sombra2 {
+    text-shadow: 2px 6px 6px rgba(0, 0, 0, 0.5);
+}

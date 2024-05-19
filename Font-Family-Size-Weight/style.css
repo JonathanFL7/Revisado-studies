@@ -1,0 +1,25 @@
+.fontes {
+    background-color: lightsalmon;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* ---Font Family--- */
+.familia-de-fontes {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* --- font size --- */
+
+.titulo-grande {
+    font-size: 70px;
+}
+
+/* --- Font Weight --- */
+
+.fonte-peso {
+    font-size: 20px;
+
+    font-weight: lighter;
+}
+
