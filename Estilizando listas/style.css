@@ -1,0 +1,15 @@
+/* --- Configurando list-style para nossa lista. Utilizando 'inside' para que o ícone ou PNG fique dentro da lista. Caso o ícone não carregue, o marcador será 'square' (quadrado). Padrão de marcadores no CSS são 'bullets' (bolinhas pretas).--- */
+
+ul {
+    list-style: square inside url('./png/Screenshot_1.png');
+}
+
+/* ---Adicionando propriedades para deixar nossa lista bonita. Inclui margem para espaçamento externo, padding para espaçamento interno, borda sólida preta, e fundo azul claro para os itens--- */
+
+ul li {
+    margin: 5px;
+    padding: 7px;
+
+    border: solid 2px black;
+    background-color: azure;
+}

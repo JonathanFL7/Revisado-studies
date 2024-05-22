@@ -1,0 +1,28 @@
+
+/* ---Deixar com aparencia de botão o Link--- */
+a {
+    cursor: grab;
+    margin: 15px;
+    padding: 7px;
+    border-radius: 500px;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+/* ---Aparencia posterior do link ao ser clicado--- */
+
+a:visited {
+    color: lightblue;
+}
+
+/* ---Aparencia durante o apertamento do link--- */
+
+a:active {
+    cursor: progress;
+    background-color: lightgreen;
+}
+
+/* ---Aparencia do link ao passar o cursor acima--- */
+
+a:hover {
+    color: white;
+}
