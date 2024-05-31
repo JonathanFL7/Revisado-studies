@@ -1,0 +1,60 @@
+/* ---- GERAL ---- */
+
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ---- quando um elemento tem position static, ele fica exatamente onde colocamos no codigo HTML, sem ser movido ou alterado por outras propriedades de posicionamento. ---- */
+
+.elemento-estatico {
+    position: static;
+    background-color: crimson;
+}
+
+/* --- Com position relative, o elemento se posiciona de forma relativa à sua localização original no código. Isso significa que você pode movê-lo um pouco para cima, para baixo, para a esquerda ou para a direita, mas ele ainda ocupa o mesmo espaço que antes, apenas se move em relação a isso --- */
+
+.elemento-relativo {
+    position: relative;
+    left: 150px;
+    background: coral;
+}
+
+/* --- Com position: absolute, o elemento fica "solto" e não ocupa mais o espaço onde foi colocado no código HTML. Outros elementos ocuparão o espaço deixado por ele.  */
+/* Você pode mover o elemento absoluto para qualquer lugar na tela usando as propriedades top, right, bottom e left. --- */
+.elemento-absoluto {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background-color: darkcyan;
+}
+
+
+
+/* ---- Quando um elemento com position: absolute tem um elemento pai com position: relative, ele se posiciona em relação ao seu pai.
+Isso significa que, ao usar propriedades como top, right, bottom e left, ele ficará dentro dos limites do elemento pai.
+No exemplo abaixo, o elemento absoluto será posicionado no canto superior direito do seu elemento pai, e não na tela completamente solto ---- */
+
+.elemento-relativo-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: lightgray;
+}
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    padding-top: 56px;
+    height: 1500px;
+}
+
+header {
+    background-color: lightcoral;
+   
+    font-size: 25px;
+    padding: 14px;
+    width: 100%;
+
+    font-weight: bolder;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+main p {
+    margin: 15px;
+}

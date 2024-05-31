@@ -1,0 +1,69 @@
+body {
+    color: white;
+}
+
+.cabecalho {
+    background-color: black;
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+}
+
+.cabecalho .logo {
+    text-shadow: 1px 1px 15px red;
+    display: inline-block;
+}
+
+.cabecalho nav a{
+    text-shadow: 1px 1px 10px red;
+    text-decoration: none;
+    color: coral;
+    /* float: right; */
+}
+
+main {
+    background-color: grey;
+    padding-top: 70px;
+    padding: 30px;
+    /* width: 900px; */
+
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .cabecalho {
+        text-align: center;
+        position: relative;
+        padding: 0;
+    }
+    
+    /* .cabecalho .logo {
+        display: block;
+    } */
+    
+    .cabecalho nav a{
+        display: block;
+        padding: 10px;
+        font-weight: bolder;
+        text-shadow: 1px 1px red;
+    }
+    
+    main .painel .info p {
+        margin: 15px 0px 15px 0px;
+        text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+        color: black;
+    }
+    main .painel .info h1 {
+        font-size: 15px;
+        color: black;
+    }
+    
+}
+
